@@ -1,0 +1,17 @@
+@import"../css/global/global.css";
+@import"../css/components/tipografia.css";
+@import"../css/components/cores.css";
+
+
+@import"../css/global/header.css";
+
+
+
+/* components */
+
+@import"..//css/components/componentes.css";
+
+
+
+/* Home */
+@import"../css/home/introducao.css";
