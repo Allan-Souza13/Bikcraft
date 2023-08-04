@@ -7,19 +7,14 @@
                 border-radius: 4px;
                 box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.10);
                 text-transform: uppercase;
-                color: #332200;
-                font-size: 18px;
-                line-height: 1.33;
-                font-weight: 600;
-                font-family: "Poppins";
-            
-            
+                color: var(--cor-p5);
+                font: 600 1.125rem/1.35 "Poppins";
             }
-            
-            .botao a:hover
-            {
-                background:  linear-gradient( #ffb60d,#e59317 100%);
+
+.botao:hover{
+                background:linear-gradient( #ffb60d,#e59317 100%);
             }
+
             @media(max-width:600px)
             {
                 .introducao a
