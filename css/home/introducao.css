@@ -3,8 +3,7 @@
             .introducao-bg
             {
                 background: var(--cor-12);
-                
-                 box-shadow: inset 0 -120px var(--cor-0); /* para a imagem vazar */
+                box-shadow: inset 0 -120px var(--cor-0); /* para a imagem vazar */
             }
             
             .introducao
