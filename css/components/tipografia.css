@@ -29,7 +29,7 @@
 
 .font-1-xl
 {
-    font: 600 2rem/1.125;
+    font: 600 2rem/1.125 "Poppins",sans-serif;
 }
 .font-1-xxl /* font com Poppins grande */
 {
