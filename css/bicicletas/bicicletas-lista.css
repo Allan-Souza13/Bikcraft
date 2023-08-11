@@ -15,6 +15,10 @@
     margin-right: auto;
     overflow-x: auto;  /*cria um scroll só na lista de bicicletas */
 }
+#bicicleta .bicicletas-lista ul
+{
+    padding: 0px 0px 20px 0px;
+}
 
 
 

@@ -8,6 +8,11 @@
     padding-bottom: 60px;
 }
 
+#bicicleta .titulo p 
+{
+    text-transform: uppercase;
+}
+
 .bicicleta-imagens
 {
     display: flex;
@@ -124,4 +129,18 @@
     {
         grid-row: 2;
     }
+}
+
+@media(max-width:400px)
+{
+    .bicicleta-informacoes
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .bicicleta-comprar
+    {
+        grid-template-columns: 1fr;
+    }
+   
 }
