@@ -1,0 +1,60 @@
+.vantagem-bg
+{
+    background: var(--cor-12);
+   
+}
+
+.vantagem-titulo
+{
+    padding-top:80px ;
+    padding-bottom: 80px;
+}
+.vantagem
+{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+.vantagem ul
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+    gap: 40px 80px;
+}
+
+.vantagem
+{
+    margin-bottom: 60px;
+}
+
+
+.vantagem h3
+{
+    font-weight:500;
+    max-width: 40ch;
+    
+    margin-bottom:8px;
+}
+
+
+.vantagem img
+{
+    width:32px ;
+    height:32px ;
+    margin-bottom:8px;
+}
+
+@media(max-width:800px)
+{
+
+    .vantagem
+    {
+        padding-top:60px;
+        padding-bottom:60px;
+       
+    }
+
+    
+   
+}
+
