@@ -15,7 +15,7 @@
     padding-bottom: 60px;
  
 }
-.bicicletas-imagem
+.bicicletas-imagem 
 {
 display: grid;
 }
@@ -27,13 +27,13 @@ display: grid;
 
 .bicicletas-imagem span
 {
-    background: var(--cor-12);
-    display: inline-block;
-    padding: 8px 16px 8px 8px;
-    border-radius: 4px 0px 0px 4px;
     grid-area: 1/1;
     place-self: start end;
     margin-top: 20px;
+    background: var(--cor-12);
+    display: inline-block;
+    padding: 8px 16px 8px 8px;
+    border-radius: 4px 0 0 4px;
 
 }
  

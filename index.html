@@ -14,8 +14,10 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@1,900&family=Mogra&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
+    <script>document.getElement.classList.add('js');</script>
+     <script>document.getElement.classList.add('js');</script>
 </head>
+
 <body>
     
     <header class="header-bg">
@@ -42,13 +44,13 @@
 <main class="introducao-bg">
 <div class="introducao container">
     <div class="introducao-conteudo">
-    <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+    <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
 
-    <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
+    <p class="font-2-l cor-5 fadeInDown" data-anime="800">Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
 
-    <a class="botao" href="./bicicletas.html">Selecione a sua</a>
+    <a class="botao fadeInDown" href="./bicicletas.html" data-anime="900">Selecione a sua</a>
 </div>
-    <div class="introducao-imagem">
+    <div class="introducao-imagem fadeInRight" data-anime="400">
         <img src="./img/fotos/introducao.jpg" alt="">
     </div>
     
@@ -259,5 +261,7 @@
         </div>
     </footer>
 
+<script src="./js/plugin/simple-anime.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>

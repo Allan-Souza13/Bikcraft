@@ -44,9 +44,12 @@ padding-bottom: 20px;
     position: absolute;
 }
 
-.header-menu a:hover:after
+.header-menu a:hover:after,
+.header-menu a.ativo::after /* puxou a classe ativo do javaScript */
+
 {
     width: 100%;
+    
 }
 
 
